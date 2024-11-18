@@ -1,0 +1,47 @@
+tr:hover{
+background-color: rgb(225, 228, 227);
+}
+
+td:hover{
+background-color: rgb(172, 3, 121);
+}
+h1{
+    color: rgb(209, 1, 140);
+    font-size: 70px;
+
+}
+
+body{
+    background-color: rgb(235, 227, 196);
+}
+
+table{
+    background-color: rgb(245, 245, 241);
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 60px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -30px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
